@@ -1,7 +1,6 @@
 {
   "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -18,5 +17,12 @@
   "homepage": "https://github.com/Sdott3/Team-Profile-Generator#readme",
   "devDependencies": {
     "jest": "^28.1.3"
-  }
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
 }
