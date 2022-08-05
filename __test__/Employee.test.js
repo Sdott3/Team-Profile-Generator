@@ -1,6 +1,4 @@
 // The first class is an Employee parent class with the following properties and methods:
-
-
 // name
 // id
 // email
@@ -19,3 +17,19 @@ test('creates an employee', () => {
     expect(employee.id).toEqual(expect.any(Number));
     expect(employee.email).toContain("@"); 
 });
+
+// gets name from getName() 
+test('gets employee name', () => {
+    const employee = new Employee('Sha Thomas', 3, 'sdotthomas347@gmail.com');
+
+    expect(employee.getName()).toEqual(expect.any(String));
+});
+
+// gets id from getId()
+test('gets employee name', () => {
+    const employee = new Employee('Sha Thomas', 3, 'sdotthomas347@gmail.com');
+
+    expect(employee.getName()).toEqual(expect.any(Number));
+});
+
+// get email from getEmail()
