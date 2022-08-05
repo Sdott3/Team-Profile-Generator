@@ -29,20 +29,20 @@ test('gets employee name', () => {
 test('gets employee id', () => {
     const employee = new Employee('Sha Thomas', 3, 'sdotthomas347@gmail.com');
 
-    expect(employee.id()).toEqual(expect.any(Number));
+    expect(employee.getId()).toEqual(expect.any(Number));
 });
 
 // get email from getEmail()
 test('gets employee email', () => {
     const employee = new Employee('Sha Thomas', 3, 'sdotthomas347@gmail.com');
 
-    expect(employee.email()).toEqual(expect.any(String));
+    expect(employee.getEmail()).toEqual(expect.any(String));
 });
 
 // get role
 test('gets employee role', () => {
     const employee = new Employee('Sha Thomas', 3, 'sdotthomas347@gmail.com');
 
-    expect(employee.getRole()).toEqual("Employee");
+    expect(employee.getRole()).toBe("Employee");
 });
 
