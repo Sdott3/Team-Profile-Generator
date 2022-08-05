@@ -1,4 +1,3 @@
-// generateHTML page
 const generateHTML = require('./src/generateHTML');
 
 const Engineer = require('./lib/Engineer');
@@ -8,7 +7,7 @@ const Manager = require('./lib/Manager');
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-const teamArray = []; 
+const teamArray = [];
  
 const addManager = () => {
     return inquirer.prompt ([
