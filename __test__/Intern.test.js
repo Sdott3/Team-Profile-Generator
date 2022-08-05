@@ -9,8 +9,15 @@ test('create a intern object', () => {
 
 // getSchool()
 test('to get intern School', () => {
-    const intern = new Intern('Shaquille Sunflower', 60, 'ssunflower@gmail.c0m', 'MSU');
+    const intern = new Intern('Shaquille Sunflower', 60, 'ssunflower@gmail.com', 'MSU');
 
     expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
 });
+
 // getRole() // Overridden to return 'Intern'
+test('to get role', () => {
+    const intern = new Intern('Shaquille Sunflower', 60, 'ssunflower@gmail.com', 'MSU');
+
+    expect(intern.getRole()).toEqual("Intern");
+});
+
