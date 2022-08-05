@@ -15,3 +15,8 @@ test('to get engineer Github', () => {
     expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
 })
 // getRole() // Overridden to return 'Engineer'
+test('get role of employee', () => {
+    const engineer = new Engineer('Pamela James', 50, 'pjames@gmail.c0m', 'pjames');
+
+    expect(engineer.getRole()).toEqual("Engineer");
+});
