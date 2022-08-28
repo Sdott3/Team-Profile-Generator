@@ -5,12 +5,19 @@ This application was created to generate a team profile based on user input usin
 
 ## Table of Contents
 * Installation
+* Screenshoot 
+* Walkthrough Video
 * Usage
 * License
 * Contributing
 * Tests
 * Questions
 
+## Screenshot 
+![Screenshot 2022-08-28 085416](https://user-images.githubusercontent.com/93238809/187075142-e92aec1e-0e7a-4a65-bf94-02f720ed545e.png)
+
+## Walkthrough Video
+https://drive.google.com/file/d/1Wkld20iT44JGURY-FcA8HlKf0ulKsVhJ/view
 
 ## Usage
 Use inquirer from your command line to answer questions about your project. View walk through video here - Screencastify
